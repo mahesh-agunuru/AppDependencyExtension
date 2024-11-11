@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ServiceNow Store App Dependencies",
+  "version": "1.0",
+  "description": "Extension to get Store App Dependencies in the required format",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "compass.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
