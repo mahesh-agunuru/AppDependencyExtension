@@ -18,3 +18,5 @@ This extension helps us to
 - Helps creating TD templates with specific release versions, particularly helpful when PMs request these templates for TD with particular versions.
 - Expedites the setup of sn-app-deploy plans, useful for debugging issues in previous versions.
 - Minimizes the risk of manual errors in fetching transitive dependencies from BT1.
+
+<img src="sample.png" alt="Alt text" width="800">
